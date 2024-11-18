@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <style>
+        body{
+            background-color: rgb(73, 100, 124);
+        }
         #d1{
             height:500px;
             width:400px;
@@ -14,6 +20,8 @@
             top:100px;
             padding: 5px;
             text-align: center;
+            border:2px solid rgb(237, 216, 188);
+            border-radius: 20%;
         }
         #d2{
             height:150px;
@@ -28,8 +36,8 @@
         .leye,.reye{
             height:7px;
             width:10px;
-            background-color: aliceblue;
-            border-radius: 30%;
+            background-color: red;
+            border-radius: 45%;
             
 
         }
@@ -37,7 +45,7 @@
             height:10px;
             width:20px;
             background-color: aliceblue;
-            border-radius: 23%;
+            border-radius: 40%;
             position: absolute;
             top:70%;
             left:65px;
@@ -45,12 +53,12 @@
         .leye{
             position: absolute;
             top:30%;
-            left:40px ;
+            left:42px ;
         }
         .reye{
             position: absolute;
             top:30%;
-            left:90px;
+            left:92px;
         }
         .nose{
             height:10px;
@@ -59,7 +67,7 @@
             border-radius: 50%;
             position: absolute;
             top:50%;
-            left:45%
+            left:46%
         }
         .d3{
             height:250px;
@@ -78,8 +86,8 @@
             border-right: 50px solid antiquewhite;
             border-top: 0px solid antiquewhite;
             position: absolute;
-            top:5px;
-            left:135px;
+            top:15px;
+            left:139px;
             z-index:3;
 
         }
@@ -101,15 +109,54 @@
             top:250px;
             left:200px;
         }
-        h1,h3{
+        .thread{
+            height:12px;
+            width:2px;
+            background-color: rgb(123, 38, 38);
+        }
+        .t1{
+            position:absolute;
+            top:272px;
+            left:203px;
+        }
+        .t2{
+            position: absolute;
+            top:272px;
+            left:209px;
+        }
+        .t3{
+            position: absolute;
+            top:272px;
+            left:215px;
+        }
+        .header{
+            height:200px;
+            width:300px;
+            background-color: azure;
+            border:2px solid rgb(192, 221, 221);
+            border-radius: 20%;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            left:279px;
+            margin-top: 20px;
             
         }
-
+        h1,h3,h4{
+            font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+        }
+        
     </style>
 </head>
 <body>
+    
+    <div class="header">
     <h1>Snowman</h1>
     <h3>By Himanshu Singh</h3>
+    <h4>CSS Project</h4>
+</div>
   <div id="d1">
     <div class="cap"></div>
     <div id="d2">
@@ -122,6 +169,10 @@
     <div id="d3"></div>
     <div class="muffeler"></div>
     <div class="muffeler1"></div>
+    <div class="thread t1"></div>
+    <div class="thread t2"></div>
+    <div class="thread t3"></div>
   </div>
+
 </body>
 </html>
